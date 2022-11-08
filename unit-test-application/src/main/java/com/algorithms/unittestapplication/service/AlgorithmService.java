@@ -24,4 +24,8 @@ public class AlgorithmService {
         }
         return result;
     }
+
+    public Boolean iseven(Integer number){
+        return number % 2 == 0;
+    }
 }

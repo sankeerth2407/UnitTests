@@ -26,6 +26,6 @@ public class Algorithms {
 
     @GetMapping(value = "/isEven")
     public Boolean iseven(Integer number){
-        return number % 2 == 0;
+        return algorithmService.iseven(number);
     }
 }
