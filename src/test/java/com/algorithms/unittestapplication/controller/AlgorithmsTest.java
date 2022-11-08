@@ -53,4 +53,12 @@ class AlgorithmsTest {
         assertEquals(4, algorithms.productOfArrayOfElements(numbers));
 
     }
+
+    @Test
+    void iseven() {
+        assertEquals(true, algorithms.iseven(24));
+        assertEquals(false, algorithms.iseven(25));
+        assertEquals(true, algorithms.iseven(286));
+        assertEquals(false, algorithms.iseven(241));
+    }
 }
