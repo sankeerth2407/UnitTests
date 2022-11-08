@@ -23,4 +23,9 @@ public class Algorithms {
     public Integer productOfArrayOfElements(@RequestBody List<Integer> numbers){
         return algorithmService.productOfArrayOfElements(numbers);
     }
+
+    @GetMapping(value = "/isEven")
+    public Boolean iseven(Integer number){
+        return number % 2 == 0;
+    }
 }
